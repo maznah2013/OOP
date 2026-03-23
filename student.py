@@ -26,7 +26,7 @@ class School(Student):
         print(f"Section: {self.section}")
 
 
-#CREATE AN OBLJECT OF THE CLASS
+#CREATE AN OBJECT OF THE CLASS
 
 student1=School("Maznah", 13, 8, "Yellow", "F")
 student1.display()

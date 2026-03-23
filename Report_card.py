@@ -30,4 +30,23 @@ class Result(Student):
         print(f"Name: {self.name}")
         print(f"Grade: {self.grade}")
         print(f"Section: {self.section}")
-        
+        print(f"Average: {self.avg}")
+        if self.avg>=90:
+            print("You got A+")
+        elif self.avg>=80:
+            print("You got A")
+        elif self.avg>=70:
+            print("You got B")
+        elif self.avg>=60:
+            print("You got C")
+        elif self.avg>=50:
+            print("You got D")
+        elif self.avg>=40:
+            print("You got E")
+        else:
+            print("You have failed")
+
+result1=Result()
+result1.input_details()
+result1.cal()
+result1.show_details()
